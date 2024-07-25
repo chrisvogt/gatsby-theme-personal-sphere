@@ -1,72 +1,85 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Layout matches the snapshot 1`] = `
-<div
-  className="css-tvtok6-Layout"
->
+[
+  <a
+    data-reach-skip-link=""
+    data-reach-skip-nav-link=""
+    href="#reach-skip-nav"
+  >
+    Skip to content
+  </a>,
   <div
-    style={
-      {
-        "bottom": 0,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "top": 0,
-      }
-    }
+    className="css-tvtok6-Layout"
   >
-    <canvas
-      style={
-        {
-          "display": "block",
-          "height": "100%",
-          "left": 0,
-          "position": "absolute",
-          "top": 0,
-          "width": "100%",
-        }
-      }
-    />
     <div
       style={
         {
-          "WebkitBackdropFilter": "blur(100px)",
-          "backdropFilter": "blur(100px)",
-          "backgroundColor": "rgba(75, 0, 130, 0.02)",
-          "height": "100%",
+          "bottom": 0,
           "left": 0,
-          "pointerEvents": "none",
           "position": "absolute",
+          "right": 0,
           "top": 0,
-          "width": "100%",
         }
       }
-    />
-  </div>
-  <header
-    className="css-1jqf6qp-Layout"
-    role="banner"
-  >
-    <div
-      className="MOCK__TopNavigation"
-    />
-  </header>
-  <main
-    role="main"
-  >
-    <div
-      className="fake-website"
     >
-      <h1>
-        Fake Website
-      </h1>
-      <p>
-        Lorum ipsum dolor sit amet.
-      </p>
+      <canvas
+        style={
+          {
+            "display": "block",
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+      />
+      <div
+        style={
+          {
+            "WebkitBackdropFilter": "blur(100px)",
+            "backdropFilter": "blur(100px)",
+            "backgroundColor": "rgba(75, 0, 130, 0.02)",
+            "height": "100%",
+            "left": 0,
+            "pointerEvents": "none",
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+      />
     </div>
-  </main>
-  <div
-    className="MOCK__Footer"
-  />
-</div>
+    <header
+      className="css-1jqf6qp-Layout"
+      role="banner"
+    >
+      <div
+        className="MOCK__TopNavigation"
+      />
+    </header>
+    <main
+      role="main"
+    >
+      <div
+        data-reach-skip-nav-content=""
+        id="reach-skip-nav"
+      />
+      <div
+        className="fake-website"
+      >
+        <h1>
+          Fake Website
+        </h1>
+        <p>
+          Lorum ipsum dolor sit amet.
+        </p>
+      </div>
+    </main>
+    <div
+      className="MOCK__Footer"
+    />
+  </div>,
+]
 `;
